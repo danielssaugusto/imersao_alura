@@ -29,5 +29,45 @@ const perguntas = [
         pergunta: "Com o que as naves kryptonianas são acionadas?",
         opcoes: ["Disco", "Chave", "Comando de voz"],
         resposta: "Chave"
-    }
+    },
+    {
+        pergunta: "Qual o objetivo de Zod ao chegar à Terra?",
+        opcoes: ["Dominar o planeta e transformá-lo em um novo Krypton", "Destruir a Terra para vingar a queda de Krypton", "Encontrar a Fortaleza da Solidão"],
+        resposta: "Dominar o planeta e transformá-lo em um novo Krypton"
+    },
+    {
+        pergunta: 'Quem dirigiu "O Homem de Aço"?',
+        opcoes: ["Christopher Nolan", "Joss Whedon", "Zack Snyder"],
+        resposta: "Zack Snyder"
+    },
+    {
+        pergunta: "Qual o nome do ator que interpreta o protagonista?",
+        opcoes: ["Ben Affleck", "Henry Cavill", "Tom Welling"],
+        resposta: "Henry Cavill"
+    },
+    {
+        pergunta: "Qual o motivo de Jor-El enviar seu filho, Kal-El, para a Terra?",
+        opcoes: ["Para escapar de uma guerra civil em Krypton", "Para salvar a humanidade de uma invasão alienígena", "Para garantir a sobrevivência da espécie kryptoniana"],
+        resposta: "Para garantir a sobrevivência da espécie kryptoniana"
+    },
+    {
+        pergunta: "Onde Clark Kent encontra a Fortaleza da Solidão pela primeira vez?",
+        opcoes: ["No Ártico", "No Polo Sul", "No Himalaia"],
+        resposta: "No Ártico"
+    },
+    {
+        pergunta: "Qual evento desencadeia a chegada de Zod e seus seguidores à Terra?",
+        opcoes: ["A ativação de uma nave kryptoniana escondida na Terra", "A descoberta da localização da Fortaleza da Solidão", "Um sinal de socorro enviado por Jor-El"],
+        resposta: "A ativação de uma nave kryptoniana escondida na Terra"
+    },
+    {
+        pergunta: "Qual a principal razão pela qual Superman decide se revelar ao mundo?",
+        opcoes: ["Para proteger a humanidade de uma ameaça maior", "Para provar sua superioridade aos outros super-heróis", "Para encontrar seu lugar no mundo e fazer a diferença"],
+        resposta: "Para proteger a humanidade de uma ameaça maior"
+    },
+    {
+        pergunta: 'Qual o significado do símbolo "S" no peito do uniforme do Superman?',
+        opcoes: ['Significa "esperança" em kryptoniano', "Representa a casa de El, a última casa de Krypton.", "É apenas um símbolo aleatório escolhido por Jor-El."],
+        resposta: 'Significa "esperança" em kryptoniano'
+    },
 ];
