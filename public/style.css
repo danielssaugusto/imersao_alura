@@ -226,6 +226,8 @@ footer a:hover {
     flex-direction: column;
     height: 100vh;
     font-size: 1.5rem;
+    background-image: linear-gradient(to right, black, rgb(69, 69, 88)); /* Cor de fundo da página */
+    background-size: auto;
 }
 
 .second-header {
