@@ -45,7 +45,7 @@ const dados = [
     
     {
         titulo: "Martha Kent",
-        descricao: "Clark é um presente do universo. Sua chegada transformou nossas vidas. Acompanhei seu crescimento e vi a pessoa incrível que ele se tornou. Sei que ele fará a diferença no mundo.",
+        descricao: "Meu filho é um presente do universo. Sua chegada transformou nossas vidas. Acompanhei seu crescimento e vi a pessoa incrível que ele se tornou. Sei que ele fará a diferença no mundo.",
         link: "https://www.imdb.com/title/tt0770828/characters/nm0000178?ref_=tt_cl_c_4",
         tags: "mãe adotiva amorosa protetora marta"
     },
