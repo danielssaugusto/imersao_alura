@@ -44,7 +44,7 @@ body {
     display: flex; /* Usa Flexbox para layout */
     flex-direction: column; /* Alinha os itens na vertical */
     align-items: center; /* Centraliza os itens horizontalmente */
-    justify-content: center;
+    /* justify-content: center; */
     height: 100vh; /* Preenche a altura total da viewport */
 }
 
@@ -56,6 +56,7 @@ header {
     border-color: rgba(0, 0, 255, 0.285);
     background-color: rgba(0, 0, 255, 0.142);
     text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    margin: 2rem;
 }
 
 /* Estiliza os títulos h1 */
@@ -167,6 +168,12 @@ footer a:hover {
 
 .navegador-container a:hover {
     color: var(--cor-principal);
+}
+
+.pesquisa-posicao {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 /* Estiliza a caixa de resultados da pesquisa */
