@@ -45,6 +45,7 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 });
 
+// Página de Curiosidades
 const app = {
     dados: dados, 
     perguntas: perguntas,
@@ -73,7 +74,7 @@ function quiz(app) {
         const pergunta = app.perguntas[app.perguntaAtual];
         if (opcaoSelecionada === pergunta.resposta) {
             app.pontuacao++;
-            alert("Resposta correta!");
+            alert("Resposta correta!")
         } else {
             alert("Resposta incorreta!");
         }
@@ -104,3 +105,5 @@ document.getElementById("iniciar").addEventListener("click", () => {
     toggleElement("quiz", true);
     quiz(app);
 });
+
+// Página de Galeria

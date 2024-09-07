@@ -33,7 +33,6 @@
 html {
     background-image: linear-gradient(to right,  black, black, darkblue); /* Cor de fundo da página */
     color: var(--cor-titulo); /* Cor principal dos textos */
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
 }
 
 body {
@@ -56,6 +55,7 @@ header {
     border-radius: 1rem;
     border-color: rgba(0, 0, 255, 0.285);
     background-color: rgba(0, 0, 255, 0.142);
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
 }
 
 /* Estiliza os títulos h1 */
@@ -142,7 +142,7 @@ footer a:hover {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin: 1rem;
+    margin: 0.5rem;
     text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
 }
 
