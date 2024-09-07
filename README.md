@@ -1,20 +1,59 @@
-## Página do Man of Steel Fandom
+# Man of Steel Fandom
 
-### Descrição
-Este projeto é uma página web dedicada ao universo do Superman, com foco no filme "O Homem de Aço". A aplicação oferece informações básicas sobre os personagens principais e permite que os usuários pesquisem por mais detalhes.
+## Sobre o Projeto
 
-### Tecnologias Utilizadas
-* **HTML:** Estrutura da página
-* **CSS:** Estilização
-* **JavaScript:** Implementa a funcionalidade de pesquisa e interações dinâmicas
+Este é um site fan dedicado ao filme "O Homem de Aço", criado com o objetivo de reunir fãs e compartilhar informações sobre o universo do Superman. O projeto inclui:
 
-### Estrutura de Arquivos
-* `index.html`: Página principal da aplicação
-* `style.css`: Arquivo de estilos CSS
-* `app.js`: Arquivo JavaScript com a lógica da aplicação
-* `assets`: Pasta contendo imagens e outros recursos
+* **Página inicial:** Uma página de boas-vindas com links para as outras seções do site.
+* **Curiosidades:** Fatos interessantes sobre o filme e seus personagens.
+* **Quiz:** Um quiz divertido para testar seus conhecimentos sobre o filme.
+* **Pesquisa:** Uma ferramenta para buscar informações específicas sobre o filme.
 
-### Como Executar
-1. **Clone o repositório:**
-   ```bash
-   git clone [https://github.com/seu_usuario/seu_repositorio.git](https://github.com/seu_usuario/seu_repositorio.git)
+## Tecnologias Utilizadas
+
+* **HTML:** Estrutura básica do site.
+* **CSS:** Estilização visual do site.
+* **JavaScript:** Interatividade e funcionalidades dinâmicas.
+
+## Como Contribuir
+
+Contribuições são bem-vindas! Para contribuir com este projeto, siga estes passos:
+
+1. **Fork** este repositório.
+2. **Clone** o seu fork.
+3. **Crie um novo branch** para sua feature.
+4. **Faça suas alterações** e commit.
+5. **Envie um pull request.**
+
+## Como Instalar e Usar
+
+**Pré-requisitos:**
+
+* Um navegador web moderno.
+
+**Instruções:**
+
+1. **Clone este repositório:** `git clone https://github.com/seu-usuario/man-of-steel-fandom.git`
+2. **Abra o arquivo index.html** em seu navegador.
+
+## Exemplos de Uso
+
+* **Pesquisa:** Digite "Superman" na barra de pesquisa para encontrar informações sobre o personagem.
+* **Quiz:** Clique no botão "Iniciar Quiz" para testar seus conhecimentos e descobrir novas curiosidades sobre este universo.
+
+## Licença
+
+Este projeto está licenciado sob a licença [MIT, GPL, etc.] - consulte o arquivo LICENSE para mais detalhes.
+
+## Autores
+
+* **Daniel Augusto** - Desenvolvedor principal
+
+**Agradecimentos:**
+
+Agradeço a Alura em sua semana de Imersão Dev com Google Gemini
+
+**Recursos:**
+
+* **Inspiração:** [Fonte de imagens](https://www.imdb.com/title/tt0770828/)
+* **Tutoriais:** [Alura/Imersão](https://cursos.alura.com.br/imersao)
