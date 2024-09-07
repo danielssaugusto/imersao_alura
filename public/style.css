@@ -126,13 +126,14 @@ main {
 
 /* Estiliza o rodapé da página */
 footer {
-    background-color: var(--cor-secundaria); /* Cor de fundo do rodapé */
+    background-color: #002f6c8a; /* Cor de fundo do rodapé */
     color: var(--cor-titulo); /* Cor do texto */
     text-align: center; /* Alinha o texto ao centro */
     padding: 0px; /* Espaçamento interno */
     width: 100%; /* Largura total da página */
     position: absolute; /* Posiciona o rodapé */
     bottom: 0; /* Alinha ao fundo da página */
+    border-top: 2px solid #002F6C;
 }
 
 footer p {
