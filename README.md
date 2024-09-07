@@ -43,7 +43,7 @@ Contribuições são bem-vindas! Para contribuir com este projeto, siga estes pa
 
 ## Licença
 
-Este projeto está licenciado sob a licença [MIT, GPL, etc.] - consulte o arquivo LICENSE para mais detalhes.
+Este projeto está licenciado sob a licença [MIT] - consulte o arquivo LICENSE para mais detalhes.
 
 ## Autores
 
