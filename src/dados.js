@@ -4,18 +4,21 @@ const dados = [
         titulo: "Clark Kent",
         descricao: 'Ao longo da minha vida, busquei um lugar aonde pertenço. A Krypton, meu planeta natal, foi destruída. A Terra, embora seja meu lar adotivo, nunca me senti completamente parte dela. A solidão é uma companheira constante em minha jornada.',
         link: "https://www.imdb.com/title/tt0770828/characters/nm0147147?ref_=tt_cl_c_1",
+        tags: "kal kalel kal-el escoteiro superman super super-homem herói heroi"
     },
 
     {
         titulo: "Lara Lor-Van",
         descricao: 'A maternidade é um instinto universal, independentemente da origem. Sentir o coração de meu filho batendo dentro de mim foi uma experiência indescritível. A dor da separação foi quase insuportável, mas a esperança de um futuro melhor para ele me fortalecia.',
         link: "https://www.imdb.com/title/tt0770828/characters/nm0957909?ref_=tt_cl_c_11",
+        tags: "cientista mãe mae"
     },
 
     {
         titulo: "Jor-El",
         descricao: 'Ao olhar para o céu estrelado, imaginava as infinitas possibilidades que o futuro reservava para meu filho. Sonhava com um dia em que Kal-El se tornaria um símbolo de esperança para toda a humanidade, um farol em meio à escuridão.',
         link: "https://www.imdb.com/title/tt0770828/characters/nm0000128?ref_=tt_cl_c_5",
+        tags: "cientista pesquisador explorador pai "
     },
 ];
 
@@ -27,8 +30,8 @@ const perguntas = [
     },
     {
         pergunta: "Com o que as naves kryptonianas são acionadas?",
-        opcoes: ["Disco", "Chave", "Comando de voz"],
-        resposta: "Chave"
+        opcoes: ["Disco Octagonal", "Chave de comando", "Comando de voz"],
+        resposta: "Chave de comando"
     },
     {
         pergunta: "Qual o objetivo de Zod ao chegar à Terra?",
@@ -52,7 +55,7 @@ const perguntas = [
     },
     {
         pergunta: "Onde Clark Kent encontra a Fortaleza da Solidão pela primeira vez?",
-        opcoes: ["No Ártico", "No Polo Sul", "No Himalaia"],
+        opcoes: ["No Polo Sul", "No Himalaia", "No Ártico"],
         resposta: "No Ártico"
     },
     {
@@ -62,7 +65,7 @@ const perguntas = [
     },
     {
         pergunta: "Qual a principal razão pela qual Superman decide se revelar ao mundo?",
-        opcoes: ["Para proteger a humanidade de uma ameaça maior", "Para provar sua superioridade aos outros super-heróis", "Para encontrar seu lugar no mundo e fazer a diferença"],
+        opcoes: ["Para provar sua superioridade aos outros super-heróis", "Para encontrar seu lugar no mundo e fazer a diferença", "Para proteger a humanidade de uma ameaça maior"],
         resposta: "Para proteger a humanidade de uma ameaça maior"
     },
     {

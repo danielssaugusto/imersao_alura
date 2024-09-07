@@ -1,4 +1,6 @@
+// Manipulando o DOM
 document.addEventListener("DOMContentLoaded", function() {
+    // Função para pesquisar uma informação na página
     function pesquisar() {
         let section = document.getElementById("resultados-pesquisa");
         let pesquisaInput = document.getElementById("pesquisa").value.toLowerCase();
@@ -11,8 +13,12 @@ document.addEventListener("DOMContentLoaded", function() {
         let resultados = "";
 
         for (const dado of dados) {
-            if (dado.titulo.toLowerCase().includes(pesquisaInput) || dado.descricao.toLowerCase().includes(pesquisaInput)) {
-                resultados = `
+            titulo = dado.titulo.toLowerCase();
+            descricao = dado.descricao.toLowerCase();
+            tags = dado.tags.toLowerCase();
+
+            if (titulo.includes(pesquisaInput) || descricao.includes(pesquisaInput) || tags.includes(pesquisaInput)) {
+                resultados += `
                     <div class="item-resultado">
                         <h2>${dado.titulo}</h2>
                         <p class="descricao-meta">${dado.descricao}</p>
@@ -22,9 +28,16 @@ document.addEventListener("DOMContentLoaded", function() {
             }
         }
         
-        section.innerHTML = resultados || "Nenhum resultado encontrado.";
+        // Exibe na tag HTML o resultado ou a mensagem informando que não existe no banco de dados
+        section.innerHTML = resultados || "<p>Nenhum resultado encontrado.</p>";
     }
 
+    // Atribuindo a função "pesquisar()" no evento de clicar no botão
+    document.getElementById("button-pesquisa").addEventListener('click', function() {
+        pesquisar();
+    });
+    
+    // Atribuindo a função "pesquisar()" no evento de pressionar o "enter"
     document.getElementById("pesquisa").addEventListener('keypress', function(event) {
         if (event.key === 'Enter') {
             pesquisar();
@@ -32,10 +45,9 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 });
 
-
 const app = {
-    dados: dados, // Certifique-se de que 'dados' está definido no arquivo ../src/dados.js
-    perguntas: perguntas, // Certifique-se de que 'perguntas' está definido no arquivo ../src/dados.js
+    dados: dados, 
+    perguntas: perguntas,
     pontuacao: 0,
     perguntaAtual: 0,
 };
@@ -92,4 +104,3 @@ document.getElementById("iniciar").addEventListener("click", () => {
     toggleElement("quiz", true);
     quiz(app);
 });
-
