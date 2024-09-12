@@ -34,6 +34,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     // Atribuindo a função "pesquisar()" no evento de clicar no botão
     document.getElementById("button-pesquisa").addEventListener('click', function() {
+        `<div style="display: none;" class="imagem-apresentacao">`
         pesquisar();
     });
     

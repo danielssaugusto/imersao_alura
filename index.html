@@ -10,7 +10,16 @@
 </head>
 <body class="background-image" alt="Man of Steel (2013)">
     <header>
-        <h1>Man of Steel - Fandom</h1>
+        <div>
+            <h1>Man of Steel - Fandom</h1>
+            <section class="pesquisa">
+                <div class="pesquisa-posicao">
+                    <input type="text" id="pesquisa" placeholder="Explore este mundo...">
+                    <button onclick="pesquisar()" type="button" title="Pesquisar" id="button-pesquisa">Pesquisar</button>
+                </div>
+            </section>
+        </div>
+
         <nav>
             <section class="navegador-container">
                 <a href="index.html" title="Home"><img src="assets/home_24dp.png" alt="Home">Home</a>
@@ -20,18 +29,22 @@
                 <a href="forum.html" title="Fórum">Fórum</a> -->
             </section>
         </nav>
-
-        <section class="pesquisa">
-            <div class="pesquisa-posicao">
-                <input type="text" id="pesquisa" placeholder="Explore este mundo...">
-                <button onclick="pesquisar()" type="button" title="Pesquisar" id="button-pesquisa">Pesquisar</button>
-            </div>
-        </section>
     </header>
 
     <main>
-        <section class="resultados-pesquisa" id="resultados-pesquisa">
-
+        <section class="main-section">
+            <section class="resultados-pesquisa" id="resultados-pesquisa">
+                <div class="imagem-apresentacao">
+                    <h2>Bem-vindo(a) ao planeta</h2>
+                    <iframe width="560" height="315"
+                            src="https://www.youtube.com/embed/T6DJcgm3wNY?autoplay=1&loop=1&playlist=T6DJcgm3wNY&modestbranding=1&rel=0"
+                            title="YouTube video player"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen>
+                    </iframe>
+                </div>
+            </section>
         </section>
     </main>
 

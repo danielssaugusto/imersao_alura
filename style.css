@@ -50,18 +50,29 @@ body {
 
 .header-container,
 header {
-    border: 2px solid var(--cor-principal);
-    padding: 2rem;
-    border-radius: 1rem;
+    padding: 5px 0 0 0;
+    border-radius: 0  0 1rem 1rem;
     border-color: rgba(0, 0, 255, 0.285);
     background-color: rgba(0, 0, 255, 0.142);
     text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
-    margin: 2rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 99%;
+    max-width: 100%;
+}
+
+header div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
 }
 
 /* Estiliza os títulos h1 */
 h1 {
-    font-size: 2.5rem; /* Tamanho da fonte */
+    font-size: 2rem; /* Tamanho da fonte */
     color: var(--cor-titulo); /* Cor do texto */
     text-align: center; /* Alinha o texto ao centro */
     letter-spacing: 0.4rem; /* Espaçamento entre letras */
@@ -76,23 +87,22 @@ section {
 
 /* Estiliza os inputs dentro das seções */
 section input {
-    width: 30rem; /* Largura dos inputs */
+    width: 20rem; /* Largura dos inputs */
     border: none; /* Remove a borda padrão */
-    padding: 1rem; /* Espaçamento interno */
-    border-radius: 1.5rem; /* Borda arredondada */
+    padding: 0.5rem; /* Espaçamento interno */
+    border-radius: 0.5rem 0 0 0.5rem; /* Borda arredondada */
     color: var(--cor-secundaria); /* Cor do texto */
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1rem; /* Tamanho da fonte */
     box-sizing: border-box; /* Inclui padding e border na largura total */
-    margin: 1rem;
 }
 
 /* Estiliza os botões dentro das seções */
 section button {
     background-color: var(--cor-principal); /* Cor de fundo do botão */
-    padding: 0.8rem 1rem; /* Espaçamento interno do botão */
+    padding: 0.45rem 1rem; /* Espaçamento interno do botão */
     border: none; /* Remove a borda padrão */
-    border-radius: 1.5rem; /* Borda arredondada */
+    border-radius: 0 0.5rem 0.5rem 0; /* Borda arredondada */
 
     font-family: var(--font-principal);
     font-size: 1rem; /* Tamanho da fonte */
@@ -154,6 +164,7 @@ footer a:hover {
 
 /* Componentes */
 .navegador-container {
+    width: 1250px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -174,12 +185,22 @@ footer a:hover {
     display: flex;
     flex-direction: row;
     align-items: center;
+    border-radius: 0.5rem;
+}
+
+.imagem-apresentacao img {
+    width: 200px;
+}
+
+.imagem-apresentacao h2 {
+    text-align: center;
+    margin-bottom: 1rem;
 }
 
 /* Estiliza a caixa de resultados da pesquisa */
 .resultados-pesquisa {
     width: 60rem; /* Largura máxima da caixa de resultados */
-    height: 15rem;
+    height: 25rem;
     overflow-y: auto; /* Adiciona rolagem vertical se necessário */
     margin-top: 1rem; /* Espaçamento acima da caixa de resultados */
     padding: 1rem; /* Espaçamento interno */
