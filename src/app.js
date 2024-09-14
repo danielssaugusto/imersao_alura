@@ -19,10 +19,13 @@ document.addEventListener("DOMContentLoaded", function() {
 
             if (titulo.includes(pesquisaInput) || descricao.includes(pesquisaInput) || tags.includes(pesquisaInput)) {
                 resultados += `
-                    <div class="item-resultado">
-                        <h2>${dado.titulo}</h2>
-                        <p class="descricao-meta">${dado.descricao}</p>
-                        <a href="${dado.link}" target="_blank">Mais Informações</a>
+                    <div class="item-resultado card-container">
+                        <img src="${dado.image}" alt="Poster do filme 'Man of Steel, 2013'">
+                        <section class="descricao">
+                            <h2>${dado.titulo}</h2>
+                            <p class="descricao-meta">${dado.descricao}</p>
+                            <a href="${dado.link}" target="_blank">Mais Informações</a>
+                        </section>
                     </div>
                 `;
             }
