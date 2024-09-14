@@ -31,7 +31,7 @@
 
 /* Base */
 html {
-    background-image: linear-gradient(to right,  black, black, darkblue); /* Cor de fundo da página */
+    background-image: linear-gradient(to right,  black, rgb(0, 0, 0), rgb(2, 2, 123)); /* Cor de fundo da página */
     color: var(--cor-titulo); /* Cor principal dos textos */
 }
 
@@ -49,9 +49,9 @@ body {
 .header-container,
 header {
     padding: 5px 0 0 0;
-    border-radius: 0  0 1rem 1rem;
-    border-color: rgba(0, 0, 255, 0.285);
-    background-color: rgba(0, 0, 255, 0.142);
+    border-radius: 0  0 0.5rem 0.5rem;
+    border: 1px solid rgba(0, 0, 255, 0.285);
+    background-color: rgba(0, 0, 255, 0.252);
     text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
 
     display: flex;
@@ -89,7 +89,7 @@ section {
 section input {
     width: 20rem; /* Largura dos inputs */
     border: none; /* Remove a borda padrão */
-    padding: 0.5rem; /* Espaçamento interno */
+    padding: 0.3rem; /* Espaçamento interno */
     border-radius: 0.5rem 0 0 0.5rem; /* Borda arredondada */
     color: var(--cor-secundaria); /* Cor do texto */
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -100,7 +100,7 @@ section input {
 /* Estiliza os botões dentro das seções */
 section button {
     background-color: var(--cor-principal); /* Cor de fundo do botão */
-    padding: 0.45rem 1rem; /* Espaçamento interno do botão */
+    padding: 0.25rem 1rem; /* Espaçamento interno do botão */
     border: none; /* Remove a borda padrão */
     border-radius: 0 0.5rem 0.5rem 0; /* Borda arredondada */
 
@@ -119,11 +119,11 @@ section button:hover {
 section a {
     display: flex;
     align-items: center;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 section a > img {
-    width: 2rem;
+    width: 1.2rem;
     margin: 0 0.5rem;
 }
 
@@ -140,7 +140,7 @@ footer {
     background-color: #002f6c8a; /* Cor de fundo do rodapé */
     color: var(--cor-titulo); /* Cor do texto */
     text-align: center; /* Alinha o texto ao centro */
-    padding: 0px; /* Espaçamento interno */
+    padding-bottom: 10px; /* Espaçamento interno */
     width: 100%; /* Largura total da página */
     bottom: 0; /* Alinha ao fundo da página */
     border-top: 2px solid #002F6C;
@@ -193,7 +193,12 @@ footer a:hover {
 
 .imagem-apresentacao h2 {
     text-align: center;
+}
+
+.imagem-apresentacao p {
+    text-align: center;
     margin-bottom: 1rem;
+    font-style: italic;
 }
 
 .main-section {
@@ -212,7 +217,6 @@ footer a:hover {
 
 .card-container {
     background-color: rgb(244, 248, 251);
-    border: 1px solid aliceblue;
     border-radius: 1rem;
     overflow: hidden;
     width: 380px;
@@ -237,7 +241,7 @@ footer a:hover {
 
 /* Estiliza cada item de resultado */
 .item-resultado {
-    background: var(--cor-titulo); /* Cor de fundo dos itens */
+    background: rgb(73, 72, 94); /* Cor de fundo dos itens */
     border-radius: 0.6rem; /* Borda arredondada */
     margin-bottom: 1rem; /* Espaçamento abaixo dos itens */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra leve */
@@ -246,13 +250,18 @@ footer a:hover {
 /* Estiliza os títulos dentro dos itens de resultado */
 .item-resultado h2 {
     font-size: 1.5rem; /* Tamanho da fonte */
-    color: var(--cor-secundaria); /* Cor do texto */
+    color: var(--cor-titulo); /* Cor do texto */
 }
 
 /* Estiliza os links dentro dos itens de resultado */
 .item-resultado a {
     text-decoration: none; /* Remove o sublinhado padrão dos links */
     color: var(--cor-destaque); /* Cor do texto dos links */
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+    padding: 10px;
+    background-color: rgb(73, 72, 94);
 }
 
 /* Estiliza os links quando são passados o mouse sobre */
@@ -264,11 +273,12 @@ footer a:hover {
     display: flex;
     flex-direction: column;
     padding: 0 1rem;
+    background-color: rgb(73, 72, 94);
 }
 
 /* Estiliza a descrição meta dentro dos itens de resultado */
 .descricao-meta {
-    color: var(--cor-texto); /* Cor do texto */
+    color: var(--cor-titulo); /* Cor do texto */
     margin: 0.5rem 0; /* Margem acima e abaixo */
 }
 
@@ -297,6 +307,10 @@ footer a:hover {
     padding: 1rem;
     border-radius: 1rem;
     background-color: transparent;
+}
+
+.main-container-quiz h1 {
+    color: var(--cor-destaque);
 }
 
 /* Estilo para o botão "Iniciar Quiz" */
@@ -354,6 +368,7 @@ footer a:hover {
 }
 
 #resultado {
+    color: var(--cor-destaque);
     font-size: 1.2em;
     margin-top: 20px;
     padding: 1rem;

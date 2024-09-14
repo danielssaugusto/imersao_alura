@@ -24,8 +24,8 @@ document.addEventListener("DOMContentLoaded", function() {
                         <section class="descricao">
                             <h2>${dado.titulo}</h2>
                             <p class="descricao-meta">${dado.descricao}</p>
-                            <a href="${dado.link}" target="_blank">Mais Informações</a>
                         </section>
+                        <a href="${dado.link}" target="_blank">Mais Informações</a>
                     </div>
                 `;
             }
