@@ -4,7 +4,7 @@
 
 Este é um site fan dedicado ao filme "O Homem de Aço", criado com o objetivo de reunir fãs e compartilhar informações sobre o universo do Superman. 
 
-Acesse em: [https://imersao-two.vercel.app/](https://imersao-two.vercel.app/)<br>
+Acesse em: [https://manofsteelfandom.vercel.app/](https://manofsteelfandom.vercel.app/)<br>
 
 O projeto inclui:
 
