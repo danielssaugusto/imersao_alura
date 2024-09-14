@@ -9,7 +9,6 @@ Acesse em: [https://imersao-two.vercel.app/](https://imersao-two.vercel.app/)<br
 O projeto inclui:
 
 * **Página inicial:** Uma página de boas-vindas com links para as outras seções do site.
-* **Curiosidades:** Fatos interessantes sobre o filme e seus personagens.
 * **Quiz:** Um quiz divertido para testar seus conhecimentos sobre o filme.
 * **Pesquisa:** Uma ferramenta para buscar informações específicas sobre o filme.
 
